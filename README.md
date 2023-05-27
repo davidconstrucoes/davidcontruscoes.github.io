@@ -1,1 +1,0 @@
-# davidcontruscoes.github.io

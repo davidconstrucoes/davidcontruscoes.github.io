@@ -1,0 +1,101 @@
+:root {
+
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+    --caribbean: #246a73ff;
+    --dark-cyan: #368f8bff;
+    --blue: #d9f0ffff;
+    --yellow: #f4b860ff;
+    --wenge: #56494cff;
+
+}
+
+html {
+
+    background-color: var(--yellow);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav, header, #preview, footer {
+
+    box-shadow: 4px 4px var(--wenge);
+    background-color: white;
+    border: 1px solid var(--wenge);
+    padding: 4px;
+    margin: 4px;
+}
+
+nav, header {
+
+    height: 850px;
+}
+
+main, header {
+
+    display: flex;
+}
+
+header {
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+    
+    max-width: 800px;
+    height: 200px;
+}
+
+header > h1 {
+
+    order: 1;
+    flex-grow: 2;
+    flex-shrink: 0;
+    font-weight: bolder;
+}
+
+header > p {
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 2;
+    width: 80px;
+}
+
+header > ul {
+
+    align-self: flex-end;
+}
+
+nav {
+    width: 100px;
+}
+
+nav > a {
+
+    display: block;
+    margin: 10px 4px;
+    text-decoration: none;
+    color: black;
+}
+
+#preview {
+
+    flex-shrink: 2;
+    width: 682px;
+}
+
+header {
+
+    margin: auto;
+}
+
+main {
+    width: 810px;
+    margin: auto;
+}
+
+footer {
+
+    text-align: center;
+    background-color: var(--caribbean);
+    color: var(--dark-cyan);
+}
