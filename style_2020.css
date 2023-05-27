@@ -96,6 +96,10 @@ main {
 footer {
 
     text-align: center;
-    background-color: var(--caribbean);
-    color: var(--dark-cyan);
+    color: var(--caribbean);
+}
+
+p {
+
+    max-width: 500px;
 }
