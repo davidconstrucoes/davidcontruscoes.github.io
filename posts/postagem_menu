@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style_2020.css">
+    <title>David CT</title>
+</head>
+<body>
+    <header>
+        <h1>David Construções</h1>
+    </header>
+
+
+    <main>
+        <nav>
+            <!--TODO: SEARCH BAR-->
+
+            <a href="https://davidsct.github.io">página inicial</a>
+            <a href="#">Postar</a>
+        </nav>
+
+        <article>
+            <h1>Bem vindo ao manual de postagem do David CT&copy;</h1>
+            <p>aqui você pode checar o texto e projetar suas postagens e mandar no email david.2023.ct@gmail.com e um tempo depois ira aparecer na aba de <q>publicações</q></p>
+            <br>
+            <p>coloque &lt;h1&gt; no inicio e &lt;/h1&gt; no fim de um texpo para fazer do texto um titulo, por exemplo, &lt;h1&gt;título&lt;/h1&gt; tornaria em <h1>título</h1>
+               &lt;p&gt;paragrafo&lt;/p&gt; cria um paragrafo. tipo este: <p>paragrafo com proposito de demonstração</p>
+               coloque &lt;br&gt; para criar uma nova linha deste jeito:<br>
+               &lt;hr&gt; para fazer uma linha reta como esta <hr>
+               &lt;a href="link"&gt;texto&lt;/a&gt; cria um link para o site que você colocar entre aspas,<br> por exemplo &lt;a href="https://google.com"&gt;google&lt;/a&gt; se tornaria em <a href="https://google.com">google</a> <br>
+               Lembre-se que &lt;h1&gt;título&lt;/h1&gt; e &lt;p&gt;paragrafo&lt;/p&gt; cria uma nova linha automaticamente
+            </p>
+
+        </article>
+    </main>
+    
+
+    <footer>
+        <h1>David CT&copy; copyright 2023</h1>
+    </footer>
+
+    <script src="postagem.js"></script>
+</body>
+</html>

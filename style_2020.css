@@ -16,7 +16,7 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-nav, header, #preview, footer {
+nav, header, article, footer {
 
     box-shadow: 4px 4px var(--wenge);
     background-color: white;
@@ -38,7 +38,6 @@ main, header {
 header {
 
     justify-content: center;
-
     flex-wrap: wrap;
     
     max-width: 800px;
@@ -47,23 +46,27 @@ header {
 
 header > h1 {
 
-    order: 1;
-    flex-grow: 2;
-    flex-shrink: 0;
-    font-weight: bolder;
-}
-
-header > p {
     order: 2;
     flex-grow: 1;
     flex-shrink: 2;
+    font-weight: bold;
+    
+    height: 80px;
+    text-align: center;
+}
+
+header > p {
+    order: 3;
+    flex-grow: 1;
+    flex-shrink: 0;
     width: 80px;
 }
 
-header > ul {
+header > span {
 
+    order: 1;
+    flex-shrink: 1;
     align-self: flex-end;
-    flex-grow: 0.5;
 }
 
 nav {
@@ -78,9 +81,9 @@ nav > a {
     color: black;
 }
 
-#preview {
+article {
 
-    flex-shrink: 2;
+    flex-shrink: 10;
     width: 682px;
     
 }
