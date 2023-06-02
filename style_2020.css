@@ -41,7 +41,7 @@ header {
     flex-wrap: wrap;
     
     max-width: 800px;
-    height: 200px;
+    max-height: 300px;
 }
 
 header > h1 {
