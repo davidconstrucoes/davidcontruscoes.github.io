@@ -110,6 +110,6 @@ p {
 }
 
 img, video {
-    width: 800%;
+    width: 100%;
     max-width: 500px;
 }
